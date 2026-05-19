@@ -15,7 +15,7 @@ def test_determine_winner_empate():
     assert determine_winner('pedra', 'pedra') == 'Empate'
 
 def test_determine_winner_voce():
-    assert determine_winner('pedra', 'tesoura') == 'Você'
+    assert determine_winner('pedra', 'tesoura') == 'Voce'
 
 def test_determine_winner_computador():
     assert determine_winner('pedra', 'papel') == 'Computador'
