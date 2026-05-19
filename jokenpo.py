@@ -64,7 +64,7 @@ def play_game():
         computer_choice
     )
 
-    if result == "Você":
+    if result == "Voce":
         user_score += 1
 
     elif result == "Computador":
@@ -106,7 +106,7 @@ def determine_winner(user_choice, computer_choice):
         (user_choice == "papel" and computer_choice == "pedra")
     ):
 
-        return "Você"
+        return "Voce"
 
     else:
 
